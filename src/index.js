@@ -1,1 +1,0 @@
-export { default as HelloWorldComponent } from './components/helloWorld';

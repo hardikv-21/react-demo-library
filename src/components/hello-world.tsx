@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const HelloWorldComponent = (): JSX.Element => (
-    <h1>Hello World</h1>
+export const HelloWorldComponent = ({ message }: any): JSX.Element => (
+    <h1>{ message } - </h1>
 );

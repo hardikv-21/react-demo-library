@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 import { HelloWorldComponent } from "react-demo-library";
 
 function App() {
-  return (
-    <HelloWorldComponent />
-  );
+  return <HelloWorldComponent />;
 }
 
 export default App;

@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react";
 
 export const HelloWorldComponent = ({ message }: any): JSX.Element => (
-    <h1>{ message } - </h1>
+  <h1>{message} - </h1>
 );
